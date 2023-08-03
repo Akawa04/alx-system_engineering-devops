@@ -1,2 +1,2 @@
 #!/bin/bash
-echo "too hard"
+telnet towel.blinkenlights.nl
