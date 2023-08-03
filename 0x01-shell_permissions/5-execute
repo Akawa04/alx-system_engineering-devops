@@ -1,0 +1,5 @@
+#!/bin/bash
+
+file_name="hello"
+chmod u+x $file_name
+

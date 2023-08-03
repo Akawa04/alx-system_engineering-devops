@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# Set the file names
+file_hello="hello"
+file_olleh="olleh"
+
+# Get the mode of olleh
+mode_olleh_file=$(stat -c %a $file_olleh)
+
+# Set the same mode for hello
+chmod $mode_olleh_file $file_hello
+

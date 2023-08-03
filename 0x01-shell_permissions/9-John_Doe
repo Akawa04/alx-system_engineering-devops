@@ -1,0 +1,3 @@
+#!/bin/bash
+file_name="hello"
+chmod 751 $file_name
