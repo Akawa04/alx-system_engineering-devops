@@ -1,2 +1,2 @@
 #!/bin/bash
-[ "$(stat -c %U hello)" = "guillaume" ]  && chown betty hello || echo "File is not owned by guillaume."
+[ "$(stat -c %U hello)" = "guillaume" ]  && chown betty hello
